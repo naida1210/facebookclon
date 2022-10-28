@@ -1,38 +1,130 @@
-.App {
+
+.navbar-container{
+   height: 56px;
+   width: 1440px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+/*left side of navbar*/
+
+.leftside{
+
+  display:flex;
+  justify-content: flex-start ;
+  gap: 7px;
+}
+
+
+
+.logo{
+  height: 48px;
+  width: 48px;
+}
+.navbarinput{
+  height: 40px;
+  width: 228px;
   text-align: center;
+  border: none;
+  border-radius: 50px;
+  background-color: rgba(0,0,0,0)
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.feedContainer{
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.image{
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image:hover{
+  transform: scale(1.1);
+  overflow: hidden;
+}
+
+.paper{
+  border-radius: 10px;
+  overflow: hidden;
+  
+  position: relative;
+}
+
+
+.avatarka{
+  position:absolute;
+  top: 50px;
+  left:20px;
+  background-color: transparent;
+  border: 3px solid #1876F2;
+  z-index: 99999;
+}
+.statuscard{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 6px;
+
+}
+
+.stack{
+  background-color: #F0F2F5;
+  margin: 0;
+  padding: 0;
+}
+
+.inputstatus {
+  height: 40px;
+  width: 580px;
+  background-color: #F0F2F5;
+  border-radius: 50px;
+  margin-left: 3px;
+  text-align: center;
+  padding-left: 10px;
+}
+.videoicon{
+  color: #F3425F;
+  margin-right: 5px;
+  height: 24px;
+  width: 24px;
+}
+.photoicon{
+  color:#8BD69D;
+  margin-right: 5px;
+  height: 24px;
+  width: 24px;
+}
+
+.moodicon{
+  color: #F7B927;
+  margin-right: 5px;
+  height: 24px;
+  width: 24px;
+}
+
+.paperimg{
+  width: 100%;
+  height: auto;
+  padding: 15px;
+}
+.maincardicon{
+  color:#7c7d80;
+  margin-right: 2px;
+}
+.sidebar{
+  margin-top: 40px;
+  
 }
