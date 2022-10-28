@@ -3,7 +3,7 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import { Avatar, Typography } from '@mui/material';
+import { Avatar } from '@mui/material';
 
 
 export default function Gallery() {
